@@ -5,14 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Hangman From Robby Delvaux </title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <header>
-    <h1>The Hangman Games</h1>
+    <h1 clas="text-center">Hangman</h1>
 </header>
 <body>
-<section id="button">
-    <button id="start">Start</button>
-    <button id="reset">Reset</button>
+<section id="container">
+    <div class="float-right">Wrong guesses : <span id="mistakes">0 </span> of <span id="maxWrong"></span></div>
+    <div class="text-center">
+        <img src="./assets/img/0.jpg" alt="0" id="penduImg">
+        <p>Guess The word</p>
+        <p id="wordSpotLight">The word to be guessed goes here</p>
+        <div id="keyboard"></div>
+        <button class="btn btn-info" onclick="reset()">Reset</button>
+    </div>
 </section>
     <canvas width="800px" height="600px" id="can"></canvas>
     <script src="./assets/js/objects.js"></script>
