@@ -23,7 +23,7 @@ function randomWord(){
 function generateButtons(){
     let buttonsHTML = "abcdefghijklmnopqrstuvwxyz".split('').map(letter =>
         `
-           <button class="btn btn-lg btn-primary m-2"
+           <button class="btn btn-lg btn-dark m-2"
                     id="`+letter+`" 
                     onclick="testLetter("`+ letter +`")
                     >
