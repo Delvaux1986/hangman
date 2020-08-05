@@ -19,7 +19,6 @@ let wordStatus = null ;
 
 function randomWord(){
     answer = wordsList[Math.floor(Math.random()* wordsList.length)];
-    console.log(answer);
 }
 
 //Function GENERATE BUTTONS OF KEYWBOARD
