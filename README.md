@@ -32,4 +32,4 @@ Je pense qu'il est fini
 
 Je m'apelle [Robby Delvaux](https://github.com/Delvaux1986) . apprenant a Becode.org
 
-![Becode_logo](img/becode.png)
+![Becode_logo](assets/img/becode.png)
