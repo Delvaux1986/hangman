@@ -1,6 +1,16 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: 'Lemonada', cursive;
+}
+
+h1 {
+  color: Rgba(198, 112, 115, 0.8);
+  text-shadow: 1px,1px, 1px, green;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFD700;
 }
 
 header {
@@ -14,15 +24,15 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-header h1 {
-  color: Rgba(198, 112, 115, 0.8);
-  text-shadow: 1px,1px, 1px, green;
+  justify-content: center;
+  background: -webkit-gradient(linear, left top, right top, from(#584c5f), to(#0c0c30));
+  background: linear-gradient(90deg, #584c5f, #0c0c30);
 }
 
 body {
   background-color: #000;
+  background: -webkit-gradient(linear, left top, right top, from(#584c5f), to(#0c0c30));
+  background: linear-gradient(90deg, #584c5f, #0c0c30);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

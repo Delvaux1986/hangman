@@ -1,20 +1,31 @@
 *{
     padding:0;
     margin:0;
+    font-family: 'Lemonada', cursive;
+    
+
+}
+
+h1{
+    color:Rgba(198,112,115,.8);
+    text-shadow: 1px,1px, 1px, green;
+    justify-content: center;
+    color : #FFD700	;
+    
 }
 header{
     display:flex;
     flex-direction: row;
     justify-content: center;
-    h1{
-        color:Rgba(198,112,115,.8);
-        text-shadow: 1px,1px, 1px, green;
-        
-    }
+    justify-content: center;
+    background: -webkit-linear-gradient(90deg, rgb(88, 76, 95), rgb(12, 12, 48));
+    background: linear-gradient(90deg, rgb(88, 76, 95), rgb(12, 12, 48));
+    
 }
 body{
     background-color: #000;
-    
+    background: -webkit-linear-gradient(90deg, rgb(88, 76, 95), rgb(12, 12, 48));
+    background: linear-gradient(90deg, rgb(88, 76, 95), rgb(12, 12, 48));
     justify-content: center;
 }
 
