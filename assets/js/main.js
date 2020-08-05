@@ -24,7 +24,7 @@ function randomWord(){
 //Function GENERATE BUTTONS OF KEYWBOARD
 
 function generateButtons(){
-    let buttonsHTML = "abcdefghijklmnopqrstuvwxyz".split('').map(letter =>
+    let buttonsHTML = "abcdefghijklmnopqrstuvwxyz-".split('').map(letter =>
         `
            <button class="btn btn-lg btn-dark m-2"
                     id="`+letter+`" 

@@ -25,6 +25,11 @@ let wordsList = [
     "espace",
     "univers",
     "boite",
+    "rendez-vous",
+    "croque-monsieur",
+    "gardes-chasse",
+    "post-scriptum",
+    "brise-lames"
 
 
 ]
